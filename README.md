@@ -70,12 +70,15 @@ npm init
 npm install express
 
 5)Crea un archivo index.js en el directorio de tu proyecto y escribe el siguiente código para configurar un servidor Express básico:
+
   const express = require('express')
+  
   const app = express()
 
   app.get('/', (req, res) => {
     res.send('¡Hola, mundo!')
   })
+
 
   app.listen(3000, () => {
     console.log('Servidor Express en ejecución en el puerto 3000')
@@ -84,7 +87,9 @@ npm install express
   Este código crea una nueva instancia de aplicación Express, define una ruta para manejar solicitudes HTTP GET a la raíz del sitio (/), y luego inicia el servidor Express en el puerto 3000.
   
 6) Para iniciar el servidor Express, ejecuta el siguiente comando en la terminal:
+
       node index.js
+      
       
 7) Abre un navegador web y navega a http://localhost:3000. Deberías ver el mensaje "¡Hola, mundo!" que definiste en la ruta raíz.
   
