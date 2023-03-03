@@ -54,7 +54,7 @@ req.body - Este objeto contiene los datos enviados en una solicitud HTTP POST o 
 
 Estos son solo algunos de los métodos de Express.js más comunes. La documentación oficial de Express.js proporciona información detallada sobre todos los métodos y su uso.
 
-# Como instanciar y levantar un servdior con express?
+# Como instanciar y levantar un servidor con express?
 
 Para levantar un servidor con Express.js, sigue estos pasos:
 
